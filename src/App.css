@@ -95,6 +95,10 @@
   margin: 0;
   padding: 0;
 }
+.gif-item {
+  background-color: #4e44ce;
+  border-radius: 20px;
+}
 
 .gif-grid .gif-item {
   display: flex;
@@ -111,7 +115,7 @@
   object-fit: cover;
 }
 
-.connected-container input[type='text'] {
+.connected-container input[type="text"] {
   display: inline-block;
   color: white;
   padding: 10px;
@@ -127,4 +131,23 @@
 
 .connected-container button {
   height: 50px;
+}
+
+.air-nft-Frame {
+  width: 500px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px 20px 0 0;
+}
+
+.playNFT {
+  background-color: #60c657;
+  border-radius: 10px;
+}
+
+.gif-item-info {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
 }
